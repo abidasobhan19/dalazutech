@@ -1,0 +1,38 @@
+.slider {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+  margin: 40px;
+  border-radius: 10px;
+}
+.slide-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.slide {
+  flex: 1;
+  height: 100%;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .slide-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .slider {
+    height: 300px;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

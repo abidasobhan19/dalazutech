@@ -1,0 +1,90 @@
+a {
+  text-decoration: none;
+  color: #333;
+}
+/*! CSS Used from: https://excricketersandwip.netlify.app/css/community.css */
+.community {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+.community-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.community-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.community-card:hover {
+  transform: translateY(-5px);
+}
+.community-card .icon {
+  font-size: 36px;
+  color: #007bff;
+}
+.community-card h5 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css */
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-facebook-messenger:before {
+  content: "\f39f";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-whatsapp:before {
+  content: "\f232";
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+.fab {
+  font-weight: 400;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.eot);
+  src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.woff2)
+      format("woff2"),
+    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.woff)
+      format("woff"),
+    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.ttf)
+      format("truetype"),
+    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.svg#fontawesome)
+      format("svg");
+}
